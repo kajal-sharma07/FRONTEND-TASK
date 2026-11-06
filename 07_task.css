@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.container {
+    background-color: white;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 50%;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.deleteBtn {
+    background-color: red;
+    margin-left: 15px;
+}
+
+#mainImage {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gallery {
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+}

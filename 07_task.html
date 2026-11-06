@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 7 - DOM Manipulation</title>
+    <link rel="stylesheet" href="07_task.css">
+</head>
+<body>
+
+    <h1>DOM Manipulation</h1>
+
+    <!-- To Do List -->
+    <div class="container">
+        <h2>My To Do List</h2>
+
+        <input type="text" id="taskInput" placeholder="Enter your task">
+
+        <button onclick="addTask()">Add Task</button>
+
+        <ul id="taskList">
+        </ul>
+    </div>
+
+
+    <!-- Image Gallery -->
+    <div class="container">
+        <h2>My Image Gallery</h2>
+
+        <img id="mainImage"
+        src="https://picsum.photos/id/1015/500/300"
+        alt="Main Image">
+
+        <div class="gallery">
+            <img src="https://picsum.photos/id/1015/100/70"
+            onclick="changeImage(this.src)">
+
+            <img src="https://picsum.photos/id/1016/100/70"
+            onclick="changeImage(this.src)">
+
+            <img src="https://picsum.photos/id/1018/100/70"
+            onclick="changeImage(this.src)">
+
+            <img src="https://picsum.photos/id/1020/100/70"
+            onclick="changeImage(this.src)">
+        </div>
+    </div>
+
+    <script src="07_task.js"></script>
+
+</body>
+</html>
